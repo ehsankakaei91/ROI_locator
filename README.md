@@ -13,6 +13,10 @@ The following atlases is included, please cite them accordingly:
 5. Wang et al. 2015 (topographic)
 6. fsl HarvardOxford
 
+## Requirements ##
+- NIFTI toolbox (niftimatlib; download [here](https://github.com/NIFTI-Imaging/nifti_matlab)) (A cloned version of NIFTI toolbox is included.)
+- [MD758 parcellation](https://github.com/cognitive-biology/Parcellation) (already included)
+
 ## How to use ##
 First, download or clone the repository. 
 The function coordinates_info(X,Y,Z,S) which gets the coordinates X,Y,Z from the desired space S ['mni' or 'tal' (Talairach)] and returns the list of regions ROI in various atlases.
